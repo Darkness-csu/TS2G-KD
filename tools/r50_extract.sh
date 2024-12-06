@@ -8,7 +8,7 @@ ADAPTER=mpa # 'p', 'm', 'ma', 'mp', 'mpa'
 DISTILL_LOSS=MAE # 'MSE', 'MAE', 'Cosine'
 EPOCHS=4
 
-WSI_DIR=/home1/lgj/TCT_smear_pt_lgj
+WSI_DIR=/home1/lgj/TCT_smear_pt_xxx
 OUT_DIR=/home1/wsi/gc-all-features/distill
 CKP_DIR="/home1/hjl/r50_weights/${BACKBONE}_${DISTILL_LOSS}_g${ADAPTER}_ep${EPOCHS}"
 
