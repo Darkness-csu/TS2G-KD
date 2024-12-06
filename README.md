@@ -1,7 +1,9 @@
 # TS2G-KD
 Official repository of  **Leveraging Task-Specific to General Knowledge Distillation for Efficient Cervical Cancer Screening on Cytological Whole Slide Images**.
 
-<img src="./images/framework_v8-3.png" width="60%">
+<div align=center>
+    <img src="./images/framework_v8-3.png" width="60%">
+</div>
 
 ## Installation
 
