@@ -12,5 +12,5 @@ DATASET=gc
 
 FEATURE_NAME=${DISTILL_DATASET}_${DISTILL_LOSS}_g${ADAPTER}_ep${EPOCHS}
 SEED=2024 # 2024 2025 2026
-cd MIL
-python benchmark.py ${FEATURE_NAME} --dataset=${DATASET} --num_dim=${NUM_DIM} --seed=${SEED} --cpus 0 1 --test_mode
+
+python benchmark.py ${FEATURE_NAME} --dataset=${DATASET} --num_dim=${NUM_DIM} --seed=${SEED} --cpus 0 1
